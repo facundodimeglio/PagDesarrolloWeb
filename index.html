@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño y Desarrollo Web</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-slate-50 min-h-screen flex flex-col">
+    <!-- Encabezado principal -->
+    <header>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="
+                    https://facundodimeglio.github.io/UVA2Ejercicio5/sobremi.html">Sobre mí</a></li>
+                <li><a href="materias2025.html">Materias 2025</a></li>
+                <li><a href="avisos.html">Avisos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="container mx-auto px-4 py-6 sm:py-8 flex-grow">
+        <h2 class="text-3xl sm:text-4xl font-bold text-center mb-6 sm:mb-8 text-slate-800">Diseño y Desarrollo Web</h2>
+
+        <!-- Grid principal -->
+        <div class="grid md:grid-cols-2 gap-4 sm:gap-6">
+            <!-- Columna izquierda -->
+            <div class="space-y-4 sm:space-y-6">
+                <!-- Sección Fechas de exámenes -->
+                <section class="bg-white p-4 sm:p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                    <h2 class="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4 text-slate-800">Fechas de exámenes</h2>
+                    <ul class="space-y-2 sm:space-y-3 text-slate-600">
+                        <li class="hover:text-slate-800 transition-colors">Primer Examen Parcial - 29/04/2025</li>
+                        <li class="hover:text-slate-800 transition-colors">Segundo Examen Parcial - 24/06/2025</li>
+                        <li class="hover:text-slate-800 transition-colors">Examen Recuperatorio - Examen Final Anticipado - 08/07/2025</li>
+                        <li class="hover:text-slate-800 transition-colors">Examen Final Regular - 22/07/2025</li>
+                    </ul>
+                </section>
+
+                <!-- Sección Bibliografía -->
+                <section class="bg-white p-4 sm:p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                    <h2 class="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4 text-slate-800">Bibliografía</h2>
+                    <ul class="space-y-2 sm:space-y-3">
+                        <li><a href="https://www.w3schools.com/" target="_blank" class="text-blue-600 hover:text-blue-800 transition-colors">W3Schools</a></li>
+                        <li><a href="https://developer.mozilla.org/es/" target="_blank" class="text-blue-600 hover:text-blue-800 transition-colors">MDN Web Docs</a></li>
+                        <li><a href="https://www.freecodecamp.org/" target="_blank" class="text-blue-600 hover:text-blue-800 transition-colors">freeCodeCamp</a></li>
+                        <li><a href="https://www.codecademy.com/" target="_blank" class="text-blue-600 hover:text-blue-800 transition-colors">Codecademy</a></li>
+                    </ul>
+                </section>
+            </div>
+
+            <!-- Columna derecha - Actividades UVAs -->
+            <section class="bg-white p-4 sm:p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow h-full">
+                <h2 class="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4 text-slate-800">Actividades UVAs</h2>
+                
+                <!-- Unidad 1 -->
+                <div class="mb-6">
+                    <h3 class="text-lg sm:text-xl font-semibold mb-3 text-slate-700">Unidad 1</h3>
+                    <ul class="space-y-4">
+                        <li class="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-3">
+                            <span class="font-medium min-w-[120px]">Ejercicio 1:</span>
+                            <div class="flex flex-wrap gap-2 sm:gap-3 items-center">
+                                <a href="https://facundodimeglio.github.io/UVA1Ejercicio1MV/" target="_blank" class="text-blue-600 hover:text-blue-800 transition-colors">Ver página</a>
+                                <span class="text-slate-300 hidden sm:inline">|</span>
+                                <a href="https://github.com/facundodimeglio/UVA1Ejercicio1MV" target="_blank" class="text-emerald-600 hover:text-emerald-800 transition-colors">Ver código</a>
+                            </div>
+                        </li>
+                        <li class="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-3">
+                            <span class="font-medium min-w-[120px]">Ejercicio 2:</span>
+                            <div class="flex flex-wrap gap-2 sm:gap-3 items-center">
+                                <a href="https://facundodimeglio.github.io/UVA1Ejercicio2MV/" target="_blank" class="text-blue-600 hover:text-blue-800 transition-colors">Ver página</a>
+                                <span class="text-slate-300 hidden sm:inline">|</span>
+                                <a href="https://github.com/facundodimeglio/UVA1Ejercicio2MV" target="_blank" class="text-emerald-600 hover:text-emerald-800 transition-colors">Ver código</a>
+                            </div>
+                        </li>
+                        <li class="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-3">
+                            <span class="font-medium min-w-[120px]">Ejercicio 3:</span>
+                            <div class="flex flex-wrap gap-2 sm:gap-3 items-center">
+                                <a href="https://facundodimeglio.github.io/UVA1EjercicioIntegradorMV/" target="_blank" class="text-blue-600 hover:text-blue-800 transition-colors">Ver página</a>
+                                <span class="text-slate-300 hidden sm:inline">|</span>
+                                <a href="https://github.com/facundodimeglio/UVA1EjercicioIntegradorMV" target="_blank" class="text-emerald-600 hover:text-emerald-800 transition-colors">Ver código</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Unidad 2 -->
+                <div>
+                    <h3 class="text-lg sm:text-xl font-semibold mb-3 text-slate-700">Unidad 2</h3>
+                    <ul class="space-y-4">
+                        <li class="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-3">
+                            <span class="font-medium min-w-[120px]">Ejercicio 1:</span>
+                            <div class="flex flex-wrap gap-2 sm:gap-3 items-center">
+                                <a href="https://facundodimeglio.github.io/UVA2Ejercicio1MV/" target="_blank" class="text-blue-600 hover:text-blue-800 transition-colors">Ver página</a>
+                                <span class="text-slate-300 hidden sm:inline">|</span>
+                                <a href="https://github.com/facundodimeglio/UVA2Ejercicio1MV" target="_blank" class="text-emerald-600 hover:text-emerald-800 transition-colors">Ver código</a>
+                            </div>
+                        </li>
+                        <li class="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-3">
+                            <span class="font-medium min-w-[120px]">Ejercicio 2:</span>
+                            <div class="flex flex-wrap gap-2 sm:gap-3 items-center">
+                                <a href="https://facundodimeglio.github.io/UVA2Ejercicio2MV/" target="_blank" class="text-blue-600 hover:text-blue-800 transition-colors">Ver página</a>
+                                <span class="text-slate-300 hidden sm:inline">|</span>
+                                <a href="https://github.com/facundodimeglio/UVA2Ejercicio2MV" target="_blank" class="text-emerald-600 hover:text-emerald-800 transition-colors">Ver código</a>
+                            </div>
+                        </li>
+                        <li class="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-3">
+                            <span class="font-medium min-w-[120px]">Ejercicio 3:</span>
+                            <div class="flex flex-wrap gap-2 sm:gap-3 items-center">
+                                <a href="https://facundodimeglio.github.io/UVA2Ejercicio3MV/" target="_blank" class="text-blue-600 hover:text-blue-800 transition-colors">Ver página</a>
+                                <span class="text-slate-300 hidden sm:inline">|</span>
+                                <a href="https://github.com/facundodimeglio/UVA2Ejercicio3MV" target="_blank" class="text-emerald-600 hover:text-emerald-800 transition-colors">Ver código</a>
+                            </div>
+                        </li>
+                        <li class="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-3">
+                            <span class="font-medium min-w-[120px]">Ejercicio 4:</span>
+                            <div class="flex flex-wrap gap-2 sm:gap-3 items-center">
+                                <a href="https://facundodimeglio.github.io/UVA2Ejercicio4MV/" target="_blank" class="text-blue-600 hover:text-blue-800 transition-colors">Ver página</a>
+                                <span class="text-slate-300 hidden sm:inline">|</span>
+                                <a href="https://github.com/facundodimeglio/UVA2Ejercicio4MV" target="_blank" class="text-emerald-600 hover:text-emerald-800 transition-colors">Ver código</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container mx-auto text-center px-4">
+            <p class="text-base sm:text-lg">Curso: 516035 / Profesora: Patricia Litovicius</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html> 
